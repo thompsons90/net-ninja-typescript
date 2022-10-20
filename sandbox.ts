@@ -4,7 +4,7 @@ let isBlackBelt = false;
 
 character = "Luigi";
 
-const circ = (diameter) => {
+const circ = (diameter: any) => {
   return diameter * Math.PI;
 };
 
